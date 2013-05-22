@@ -19,9 +19,9 @@ function pack(window_size, max_delta, max_size) {
     , hash
 
   // ensure sane inputs.
-  window_size = window_size === undefined ? 10 : window_size
-  max_delta = max_delta === undefined ? 10 : max_delta
-  max_size = max_size === undefined ? 1 << 18 : max_size 
+  window_size = 0 // window_size === undefined ? 10 : window_size
+  max_delta = 0 // max_delta === undefined ? 10 : max_delta
+  max_size = 0 // max_size === undefined ? 1 << 18 : max_size 
   window_size = Math.max(0, window_size)
   max_delta = Math.max(0, max_delta)
   max_size = Math.max(0, max_size)

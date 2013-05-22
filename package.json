@@ -1,0 +1,28 @@
+{
+  "name": "git-pack-objects",
+  "version": "0.0.0",
+  "description": "pack objects based on output from git-list-objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/git-pack-objects.git"
+  },
+  "keywords": [
+    "git",
+    "packing",
+    "heuristics"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "through": "~2.3.3"
+  },
+  "devDependencies": {
+    "git-list-objects": "0.0.2",
+    "bops": "0.0.6",
+    "through": "~2.2.7"
+  }
+}
